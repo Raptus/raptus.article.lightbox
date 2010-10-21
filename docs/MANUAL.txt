@@ -10,10 +10,11 @@ Code overview
 
 Components
 ----------
-plone.abovecontentbody:
 
+plone.abovecontentbody
+``````````````````````
 - raptus.article.lightbox
 
-plone.portaltop:
-
+plone.portaltop
+```````````````
 - raptus.article.lightbox.teaser
