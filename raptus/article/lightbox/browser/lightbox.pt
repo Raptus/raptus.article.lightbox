@@ -1,9 +1,11 @@
-<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
-     xmlns:tal="http://xml.zope.org/namespaces/tal"
-     xmlns:metal="http://xml.zope.org/namespaces/metal"
-     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-     class="inlinelightbox"
-     tal:condition="view/images"
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      tal:omit-tag=""
+      tal:condition="view/images">
+
+<div class="inlinelightbox"
      tal:attributes="class string:inlinelightbox ${view/css_class}">
   <ul class="hiddenStructure">
     <tal:item repeat="item view/images">
@@ -19,3 +21,5 @@
     </tal:item>
   </ul>
 </div>
+
+</html>

@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.0b6 (unreleased)
+------------------
+
+* Fixed template to no longer render an html tag
+
 2.0b5 (2010-11-10)
 ------------------
 
