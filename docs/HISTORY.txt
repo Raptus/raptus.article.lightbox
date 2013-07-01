@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0b6 (unreleased)
+2.0b6 (2013-07-01)
 ------------------
 
 * Fixed template to no longer render an html tag
